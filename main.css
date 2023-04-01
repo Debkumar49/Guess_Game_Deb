@@ -1,0 +1,151 @@
+body {
+    background-color: #383b38;
+    font-family: Arial;
+
+}
+
+.again_btn {
+    background-color: white;
+    font-style: normal;
+    font-weight: 200;
+    box-shadow: none;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 3%;
+    box-shadow: 0 4px #154abd;
+    margin-top: -10rem;
+}
+
+.again_btn:active {
+    background-color: #0b0fda;
+    box-shadow: 0 5px #050b42;
+    transform: translateY(5px);
+    color: #eee;
+    border: none;
+
+}
+
+.again_btn:hover {
+    border-radius: 20px;
+    transition: 0.5s;
+    content: '!!';
+}
+
+.guess_top {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: -1px;
+}
+
+.between {
+    text-align: right;
+    color: #ffffff;
+    margin-top: 1.5rem;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder;
+    font-family: Arial;
+}
+
+hr {
+    border: none;
+    width: 110%;
+    height: 6px;
+    background-color: white;
+    transform: translateY(5rem);
+
+}
+
+.number {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 15px;
+    font-size: 3rem;
+    width: 15rem;
+    padding: 2.6rem 0rem;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 07%);
+    z-index: 1;
+
+}
+
+.guess_number {
+    background-color: darkgrey;
+    color: #050b42;
+    font-size: 2rem;
+    width: 10rem;
+    height: 04rem;
+    text-align: center;
+    /* transform: translate(60%, 250%); */
+    border-color: #ffffff;
+    border-radius: 15px;
+    color: #070727;
+}
+
+main {
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    width: 52rem;
+    font-size: 2rem;
+    flex-direction: column;
+}
+
+.check {
+    background-color: white;
+    font-weight: 500;
+    font-family: Arial;
+    border-color: transparent;
+    color: #050b42;
+    font-size: 1.5rem;
+    cursor: pointer;
+    /* width: 8rem;
+    height: 03rem; */
+    border-radius: 20px;
+    box-shadow: #050b42;
+    /* transform: translate(-40%, 530%); */
+    margin-top: 1rem;
+}
+
+
+
+.check:active {
+    background-color: #040683;
+    box-shadow: 0 5px #050b42;
+    color: #eee;
+    transition: .1s;
+}
+
+.message {
+    /* margin-bottom: 8rem; */
+    /* height: 3rem; */
+    margin-top: 7rem;
+}
+
+.score {
+    font-size: 1.2rem;
+}
+
+.high_score {
+    font-size: 1.2rem;
+}
